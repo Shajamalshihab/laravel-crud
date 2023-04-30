@@ -19,3 +19,5 @@ Route::get('/',[HomeController::class,'index'])->name('home');
 
 Route::get('/product/add',[ProductController::class,'index'])->name('product.add');
 Route::post('/product/store',[ProductController::class,'store'])->name('product.store');
+Route::get('/product/manage',[ProductController::class,'manage'])->name('product.manage');
+Route::get('/product/edit/{id}',[ProductController::class,'edit'])->name('product.edit');

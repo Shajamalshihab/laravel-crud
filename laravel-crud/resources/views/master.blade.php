@@ -16,7 +16,7 @@
             <ul class="navbar-nav">
                 <li><a href="{{route('home')}}"class="nav-link">Home</a></li>
                 <li><a href="{{route('product.add')}}"class="nav-link">Add Product</a></li>
-                <li><a href=""class="nav-link">Manage Product</a></li>
+                <li><a href="{{route('product.manage')}}"class="nav-link">Manage Product</a></li>
             </ul>
         </div>
     </nav>
